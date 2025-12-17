@@ -80,6 +80,32 @@ MiniLang-Compiler/
 
 ### Requirements
 - Python 3.x
+- **Graphviz (System Installation – Required for Parse Tree Visualization)**
+- Python `graphviz` package
+
+### Install Graphviz (IMPORTANT)
+
+The parse tree visualization depends on **Graphviz**. Installing the Python package alone is **not sufficient**.
+
+#### On Windows
+1. Download Graphviz from the official website:
+   - https://graphviz.org/download/
+2. Install the **Windows MSI installer**
+3. During installation, **check the option**:
+   ```
+   Add Graphviz to system PATH
+   ```
+4. Restart your computer or PowerShell
+
+Verify installation:
+```powershell
+dot -V
+```
+
+#### Install Python Graphviz Package
+```bash
+pip install graphviz
+```
 
 ### Execution
 
