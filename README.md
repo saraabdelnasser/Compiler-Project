@@ -89,7 +89,4 @@ python main.py
 
 Make sure all files are in the same directory.
 
----
-
-intended for **educational purposes only**.
 
